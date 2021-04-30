@@ -5,6 +5,7 @@ export class PublicationDate {
     const parsingAttempts = [
       parseISO(dateInRandomFormat),
       parse(dateInRandomFormat, "E, dd MMM yyyy HH:mm:ss 'GMT'", new Date()),
+      parse(dateInRandomFormat, "E, dd MMM yyyy HH:mm:ss xxxx", new Date()),
     ];
 
     this.value = parsingAttempts.find((attempt) => isValid(attempt)) || null;
