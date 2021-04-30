@@ -49,3 +49,15 @@
     color: #555;
     font-size: 12px;
 }
+
+.refreshButton {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 18px;
+    background: none;
+    margin-bottom: 20px;
+    padding: 0;
+    border: none;
+    color: darkslateblue;
+    text-decoration: underline wavy darkslateblue;
+}
