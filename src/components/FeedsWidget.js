@@ -4,11 +4,11 @@ import { RefreshButton } from "./RefreshButton";
 import { Feed } from "./Feed";
 import { FeedError } from "./FeedError";
 
-const FeedsWidget = ({ content }) => (
-  <main>
+const FeedsWidget = ({ content, fontClass }) => (
+  <main className={`${styles.feedsWidget} ${fontClass}`}>
     <RefreshButton />
 
-    <ul className={styles.container}>
+    <ul>
       {content.map((result) =>
         result.type === "success" ? (
           <Feed key={result.forUrl} feed={result.feed} />

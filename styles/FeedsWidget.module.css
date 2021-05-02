@@ -1,7 +1,6 @@
-.container {
+.feedsWidget ul {
     display: grid;
     grid-gap: 20px;
     width: 100%;
     line-height: 1.5;
 }
-

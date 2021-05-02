@@ -8,4 +8,5 @@ export const getServerSideProps = async ({ query, res }) =>
   buildFeeds({
     redirect: makeRedirect(res),
     sources: query.sources,
+    font: query.font,
   });
