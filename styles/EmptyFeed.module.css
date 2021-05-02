@@ -1,4 +1,5 @@
 .emptyFeed {
-    color: #555;
+    color: var(--color-text);
+    opacity: .75;
     font-size: 12px;
 }

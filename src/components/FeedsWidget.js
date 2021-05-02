@@ -4,8 +4,8 @@ import { RefreshButton } from "./RefreshButton";
 import { Feed } from "./Feed";
 import { FeedError } from "./FeedError";
 
-const FeedsWidget = ({ content, fontClass }) => (
-  <main className={`${styles.feedsWidget} ${fontClass}`}>
+const FeedsWidget = ({ content, fontClass, themeClass }) => (
+  <main className={`${styles.feedsWidget} ${fontClass} ${themeClass}`}>
     <RefreshButton />
 
     <ul>

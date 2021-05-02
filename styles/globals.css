@@ -11,10 +11,24 @@
 
 html,
 body {
-  padding: 10px;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   background: #fff;
+}
+
+.light {
+  --color-background: #fff;
+  --color-text: #3F3C36;
+  --color-border: #E3E3E2;
+  --color-error: crimson;
+  --color-accent: darkslateblue;
+}
+
+.dark {
+  --color-background: #353C3F;
+  --color-text: #EEEEEE;
+  --color-border: #575C5D;
+  --color-error: salmon;
+  --color-accent: aquamarine;
 }
 
 .mono {

@@ -9,6 +9,6 @@
     margin-bottom: 20px;
     padding: 0;
     border: none;
-    color: darkslateblue;
-    text-decoration: underline dotted darkslateblue;
+    color: var(--color-accent);
+    text-decoration: underline dotted var(--color-accent);
 }

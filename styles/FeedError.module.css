@@ -1,8 +1,8 @@
 .feedError {
     padding: 20px 10px;
-    border: 2px solid crimson;
+    border: 2px solid var(--color-error);
     border-radius: 5px;
-    color: crimson;
+    color: var(--color-error);
     font-style: italic;
 }
 

@@ -9,4 +9,5 @@ export const getServerSideProps = async ({ query, res }) =>
     redirect: makeRedirect(res),
     sources: query.sources,
     font: query.font,
+    theme: query.theme,
   });

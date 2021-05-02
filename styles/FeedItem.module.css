@@ -11,14 +11,13 @@
 }
 
 .feedItem:hover {
-    background: #f1f1f1;
-    border-color: #777;
+    background: var(--color-border);
+    border-color: var(--color-text)
 }
 
 .feedItem {
     position: relative;
-    background: #fff;
-    border: 2px solid #eee;
+    border: 2px solid var(--color-border);
     border-radius: 5px;
     padding: 10px;
     transition: all .1s ease;
