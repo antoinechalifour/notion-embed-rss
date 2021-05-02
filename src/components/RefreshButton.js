@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/RefreshButton.module.css";
 
 export const RefreshButton = () => {
   const router = useRouter();
@@ -9,7 +9,7 @@ export const RefreshButton = () => {
 
   return (
     <button className={styles.refreshButton} onClick={refresh}>
-      Refresh
+      👉 Refresh content 👈
     </button>
   );
 };

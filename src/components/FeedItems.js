@@ -1,4 +1,5 @@
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/FeedItems.module.css";
+
 import { FeedItem } from "./FeedItem";
 
 export const FeedItems = ({ feed }) => (

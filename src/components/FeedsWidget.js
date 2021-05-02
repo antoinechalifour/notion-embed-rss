@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/FeedsWidget.module.css";
 
 import { RefreshButton } from "./RefreshButton";
 import { Feed } from "./Feed";

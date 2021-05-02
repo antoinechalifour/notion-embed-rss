@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/FeedItem.module.css";
 
 export const FeedItem = ({ item }) => (
   <li className={styles.feedItem}>

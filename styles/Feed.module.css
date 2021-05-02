@@ -1,0 +1,8 @@
+.feed + .feed {
+    margin-top: 20px;
+}
+
+.feed h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
