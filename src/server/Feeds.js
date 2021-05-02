@@ -1,7 +1,7 @@
 import Parser from "rss-parser";
 import { PublicationDate } from "./PublicationDate";
 
-export class Widget {
+export class Feeds {
   constructor(concatenatedSources) {
     if (!concatenatedSources) throw new Error("No source specified");
 
