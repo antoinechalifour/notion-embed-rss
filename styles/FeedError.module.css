@@ -1,0 +1,13 @@
+.feedError {
+    padding: 20px 10px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    color: crimson;
+    font-style: italic;
+}
+
+.feedError span {
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline dotted;
+}

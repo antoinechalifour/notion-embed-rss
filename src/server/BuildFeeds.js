@@ -7,6 +7,6 @@ export const buildFeeds = async ({ redirect, sources }) => {
   if (!sources) return redirect(302, INSTRUCTIONS_PAGE);
 
   return {
-    props: { feeds: await new Feeds(sources).content() },
+    props: { content: await new Feeds(sources).content() },
   };
 };

@@ -1,5 +1,6 @@
 import Parser from "rss-parser";
-import { PublicationDate } from "./PublicationDate";
+import { Result } from "./Result";
+import { Feed } from "./Feed";
 
 export class Feeds {
   constructor(concatenatedSources) {
@@ -11,23 +12,18 @@ export class Feeds {
 
   content() {
     return Promise.all(
-      this.sources.map((url) =>
-        this.parser.parseURL(url).then((feed) => ({
-          title: feed.title,
-          link: feed.link,
-          items: feed.items
-            .map((item) => ({
-              title: item.title,
-              link: item.link,
-              date: new PublicationDate(item.pubDate),
-            }))
-            .filter((item) => item.date.isKnown() && item.date.isRecent())
-            .map((item) => ({
-              ...item,
-              date: item.date.display(),
-            })),
-        }))
-      )
+      this.sources.map(async (url) => {
+        try {
+          const response = await this.parser.parseURL(url);
+
+          return Result.success({
+            forUrl: url,
+            feed: new Feed(response).toJSON(),
+          });
+        } catch (e) {
+          return Result.error({ forUrl: url });
+        }
+      })
     );
   }
 }
