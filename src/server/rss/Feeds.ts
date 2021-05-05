@@ -1,8 +1,9 @@
+import Parser from "rss-parser";
+
 import { error, Result, success } from "../../client/Result";
 import { FeedSuccess } from "../../client/FeedSuccess";
 import { FeedError } from "../../client/FeedError";
 
-import Parser from "rss-parser";
 import { Feed } from "./Feed";
 
 export class Feeds {
@@ -16,17 +17,17 @@ export class Feeds {
     this.parser = new Parser();
   }
 
-  content(): Promise<Result<FeedSuccess, FeedError>[]> {
-    return Promise.all(this.sources.map((url) => this.parseUrl(url)));
+  contentForDate(forDate: Date): Promise<Result<FeedSuccess, FeedError>[]> {
+    return Promise.all(this.sources.map((url) => this.parseUrl(url, forDate)));
   }
 
-  private async parseUrl(url: string) {
+  private async parseUrl(url: string, forDate: Date) {
     try {
       const response: any = await this.parser.parseURL(url);
 
       return success<FeedSuccess>({
         forUrl: url,
-        feed: Feed.ofParsingResult(response).toJSON(),
+        feed: Feed.ofParsingResult(response, forDate).toJSON(),
       });
     } catch (e) {
       return error<FeedError>({ forUrl: url });

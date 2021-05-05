@@ -17,8 +17,8 @@ export class PublicationDate {
     return this.value !== null;
   }
 
-  isRecent() {
-    return isAfter(this.value!, subDays(new Date(), 14));
+  isRecent(now: Date) {
+    return isAfter(this.value!, subDays(now, 14));
   }
 
   display() {

@@ -12,19 +12,24 @@ export class Feed {
   constructor(
     private readonly title: string,
     private readonly link: string,
-    private readonly items: FeedItem[]
+    private readonly items: FeedItem[],
+    private readonly forDate: Date
   ) {}
 
-  static ofParsingResult({ title, link, items }: OfParsingResultOptions) {
+  static ofParsingResult(
+    { title, link, items }: OfParsingResultOptions,
+    now: Date
+  ) {
     return new Feed(
       title,
       link,
-      items.map((item) => FeedItem.ofParsingResult(item))
+      items.map((item) => FeedItem.ofParsingResult(item)),
+      now
     );
   }
 
   get itemsShownInFeed() {
-    return this.items.filter((item) => item.showInFeed());
+    return this.items.filter((item) => item.showInFeed(this.forDate));
   }
 
   toJSON(): FeedViewModel {

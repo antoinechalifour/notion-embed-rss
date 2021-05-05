@@ -18,8 +18,8 @@ export class FeedItem {
     return new FeedItem(title, link, new PublicationDate(pubDate));
   }
 
-  showInFeed() {
-    return this.date.isKnown() && this.date.isRecent();
+  showInFeed(now: Date) {
+    return this.date.isKnown() && this.date.isRecent(now);
   }
 
   get pubDate() {

@@ -1,6 +1,6 @@
 import { ServerResponse } from "http";
 
-export type Redirect = (status: number, destination: string) => { props: {} };
+export type Redirect = (status: number, destination: string) => any;
 
 export const makeRedirect = (res: ServerResponse): Redirect => (
   status,

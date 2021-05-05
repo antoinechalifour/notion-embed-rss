@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Josh Comeau's blog]]></title>
+        <description><![CDATA[Friendly tutorials for developers. Focus on React, CSS, animation, and careers.]]></description>
+        <link>https://www.joshwcomeau.com/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 03 May 2021 15:56:40 GMT</lastBuildDate>
+        <atom:link href="https://www.joshwcomeau.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[How I Built My Blog]]></title>
+            <description><![CDATA[An in-depth look at the technical stack behind this very blog! We'll see how I use Next's API routes to implement my hit and like counters, how I use MDX to add interaction and customization, and how I organize my codebase, among others.]]></description>
+            <link>https://www.joshwcomeau.com/blog/how-i-built-my-blog/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/blog/how-i-built-my-blog/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 20 Apr 2021 12:15:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;An in-depth look at the technical stack behind this very blog! We&apos;ll see how I use Next&apos;s API routes to implement my hit and like counters, how I use MDX to add interaction and customization, and how I organize my codebase, among others.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/blog/how-i-built-my-blog/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Building a Magical 3D Button]]></title>
+            <description><![CDATA[Every action we take on the web starts with a button click, and yet most buttons are ho-hum and uninspired. In this tutorial, we'll build an animated 3D button with HTML and CSS that sparks joy.]]></description>
+            <link>https://www.joshwcomeau.com/animation/3d-button/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/animation/3d-button/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 30 Mar 2021 13:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Every action we take on the web starts with a button click, and yet most buttons are ho-hum and uninspired. In this tutorial, we&apos;ll build an animated 3D button with HTML and CSS that sparks joy.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/animation/3d-button/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Importance of Learning CSS]]></title>
+            <description><![CDATA[I know so many super-talented developers who share the same achilles heel: CSS. Instead of trying to “outrun” CSS, this article explores why leaning in and going deeper can be a tremendous boon for your development life and your career.]]></description>
+            <link>https://www.joshwcomeau.com/css/the-importance-of-learning-css/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/the-importance-of-learning-css/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 03 Mar 2021 13:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;I know so many super-talented developers who share the same achilles heel: CSS. Instead of trying to “outrun” CSS, this article explores why leaning in and going deeper can be a tremendous boon for your development life and your career.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/the-importance-of-learning-css/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What the heck, z-index??]]></title>
+            <description><![CDATA[The z-index property can be a tricky little bugger. Sometimes, no matter how much you crank up the number, the element never rises to the top! In this article, we explore stacking contexts, and see how they can thwart our efforts to use z-index. We'll also learn how to use this mechanism to our advantage.]]></description>
+            <link>https://www.joshwcomeau.com/css/stacking-contexts/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/stacking-contexts/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 14 Apr 2021 12:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;The z-index property can be a tricky little bugger. Sometimes, no matter how much you crank up the number, the element never rises to the top! In this article, we explore stacking contexts, and see how they can thwart our efforts to use z-index. We&apos;ll also learn how to use this mechanism to our advantage.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/stacking-contexts/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[An Interactive Guide to CSS Transitions]]></title>
+            <description><![CDATA[This comprehensive guide shows how to use CSS transitions! A back-to-basics look at the fundamental building blocks we need to create microinteractions and other animations.]]></description>
+            <link>https://www.joshwcomeau.com/animation/css-transitions/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/animation/css-transitions/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 09 Feb 2021 12:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;This comprehensive guide shows how to use CSS transitions! A back-to-basics look at the fundamental building blocks we need to create microinteractions and other animations.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/animation/css-transitions/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The styled-components Happy Path]]></title>
+            <description><![CDATA[styled-components is a wonderfully powerful styling library for React, and over the years I've learned a lot about how to use it effectively. This article shares my personal “best practices”.]]></description>
+            <link>https://www.joshwcomeau.com/css/styled-components/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/styled-components/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Sun, 21 Feb 2021 11:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;styled-components is a wonderfully powerful styling library for React, and over the years I&apos;ve learned a lot about how to use it effectively. This article shares my personal “best practices”.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/styled-components/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Let's Bring Spacer GIFs Back!]]></title>
+            <description><![CDATA[The 90s web gave us many delightful things: web rings, guestbooks, “under construction” animations, and spacer GIFs. In this article, we'll see how I use a Spacer component to solve common layout problems, and why it's often a great tool for the job in the modern web.]]></description>
+            <link>https://www.joshwcomeau.com/react/modern-spacer-gif/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/modern-spacer-gif/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 11 Jan 2021 10:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;The 90s web gave us many delightful things: web rings, guestbooks, “under construction” animations, and spacer GIFs. In this article, we&apos;ll see how I use a Spacer component to solve common layout problems, and why it&apos;s often a great tool for the job in the modern web.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/modern-spacer-gif/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2020 In Review]]></title>
+            <description><![CDATA[A look back at 2020. It's been a difficult year for many, and I'm no exception, though I've come out of it stronger than ever and ready for what comes next.]]></description>
+            <link>https://www.joshwcomeau.com/blog/year-in-review-2020/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/blog/year-in-review-2020/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 23 Dec 2020 14:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;A look back at 2020. It&apos;s been a difficult year for many, and I&apos;m no exception, though I&apos;ve come out of it stronger than ever and ready for what comes next.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/blog/year-in-review-2020/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Refreshing Server-Side Props]]></title>
+            <description><![CDATA[Next allows you to do server-side data-fetching, but what happens when that data needs to change on the client? This brief tutorial shows how to re-fetch the props without doing a full server reload.]]></description>
+            <link>https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 14 Dec 2020 12:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Next allows you to do server-side data-fetching, but what happens when that data needs to change on the client? This brief tutorial shows how to re-fetch the props without doing a full server reload.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Rules of Margin Collapse]]></title>
+            <description><![CDATA[“Margin collapse” has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier once you learn a few rules! In this tutorial, we take a deep dive into the governing principles, and learn how to use them to our advantage.]]></description>
+            <link>https://www.joshwcomeau.com/css/rules-of-margin-collapse/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/rules-of-margin-collapse/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 16 Dec 2020 13:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;“Margin collapse” has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier once you learn a few rules! In this tutorial, we take a deep dive into the governing principles, and learn how to use them to our advantage.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/rules-of-margin-collapse/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Boop!]]></title>
+            <description><![CDATA[An in-depth tutorial that teaches how to create one of the most adorable interactions I've ever created. We'll learn how to use React components and hooks to abstract behaviours, and see how to design the perfect API. Even if you're not into animations, I think you'll find it interesting!]]></description>
+            <link>https://www.joshwcomeau.com/react/boop/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/boop/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Sun, 21 Feb 2021 12:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;An in-depth tutorial that teaches how to create one of the most adorable interactions I&apos;ve ever created. We&apos;ll learn how to use React components and hooks to abstract behaviours, and see how to design the perfect API. Even if you&apos;re not into animations, I think you&apos;ll find it interesting!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/boop/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Chasing the Pixel-Perfect Dream]]></title>
+            <description><![CDATA[Is it possible to create an implementation of a design that matches to-the-pixel? Well, not really, but that shouldn't discourage us! In this article, I'll show how I became designers' best friend by leveraging a series of tricks to get my implementation looking near-pixel-perfect.]]></description>
+            <link>https://www.joshwcomeau.com/css/pixel-perfection/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/pixel-perfection/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 02 Nov 2020 15:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Is it possible to create an implementation of a design that matches to-the-pixel? Well, not really, but that shouldn&apos;t discourage us! In this article, I&apos;ll show how I became designers&apos; best friend by leveraging a series of tricks to get my implementation looking near-pixel-perfect.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/pixel-perfection/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hands-Free Coding]]></title>
+            <description><![CDATA[Earlier this year, I lost the ability to use a keyboard and mouse for extended periods. Fortunately, this wasn't as catastrophic as it sounds! This article chronicles my experience using adaptive tools like dictation and eye-tracking as my primary mechanisms for writing code.]]></description>
+            <link>https://www.joshwcomeau.com/blog/hands-free-coding/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/blog/hands-free-coding/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 09 Dec 2020 11:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Earlier this year, I lost the ability to use a keyboard and mouse for extended periods. Fortunately, this wasn&apos;t as catastrophic as it sounds! This article chronicles my experience using adaptive tools like dictation and eye-tracking as my primary mechanisms for writing code.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/blog/hands-free-coding/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Full-Bleed Layout Using CSS Grid]]></title>
+            <description><![CDATA[Certain layouts are surprisingly dastardly. On the modern web, one of the most common layouts is also one of the trickiest. In this tutorial, I break down how to build the "full-bleed" layout using CSS Grid.]]></description>
+            <link>https://www.joshwcomeau.com/css/full-bleed/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/full-bleed/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 05 Oct 2020 11:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Certain layouts are surprisingly dastardly. On the modern web, one of the most common layouts is also one of the trickiest. In this tutorial, I break down how to build the &quot;full-bleed&quot; layout using CSS Grid.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/full-bleed/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Building a Modern-Day Hit Counter]]></title>
+            <description><![CDATA[The 90s are cool again! Funky colors! Guestbooks! In this tutorial, we'll see how the 90s-inspired hit counter works, using modern web tools like serverless functions, FaunaDB, and React.]]></description>
+            <link>https://www.joshwcomeau.com/react/serverless-hit-counter/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/serverless-hit-counter/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 28 Sep 2020 12:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;The 90s are cool again! Funky colors! Guestbooks! In this tutorial, we&apos;ll see how the 90s-inspired hit counter works, using modern web tools like serverless functions, FaunaDB, and React.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/serverless-hit-counter/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[A Friendly Introduction to Spring Physics]]></title>
+            <description><![CDATA[Of all the little tips and techniques I've picked up over the years about animation, spring physics remains one of the most powerful and flexible. In this tutorial, we'll learn how to harness their power to build fluid, organic transitions.]]></description>
+            <link>https://www.joshwcomeau.com/animation/a-friendly-introduction-to-spring-physics/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/animation/a-friendly-introduction-to-spring-physics/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 21 Sep 2020 14:15:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Of all the little tips and techniques I&apos;ve picked up over the years about animation, spring physics remains one of the most powerful and flexible. In this tutorial, we&apos;ll learn how to harness their power to build fluid, organic transitions.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/animation/a-friendly-introduction-to-spring-physics/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The World’s Sneakiest Route Change]]></title>
+            <description><![CDATA[Recently, I worked on a project that had a lot of dynamic data, and the ability for the user to filter through it. In this article, we'll see how I built it while maintaining fully-static, using pre-generated JSON files instead of a REST API. It's a sneaky trick, with unbeatable results from a user-experience perspective.]]></description>
+            <link>https://www.joshwcomeau.com/gatsby/the-worlds-sneakiest-route-change/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/gatsby/the-worlds-sneakiest-route-change/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Fri, 31 Jul 2020 15:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Recently, I worked on a project that had a lot of dynamic data, and the ability for the user to filter through it. In this article, we&apos;ll see how I built it while maintaining fully-static, using pre-generated JSON files instead of a REST API. It&apos;s a sneaky trick, with unbeatable results from a user-experience perspective.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/gatsby/the-worlds-sneakiest-route-change/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[A Brief Hiatus]]></title>
+            <description><![CDATA[When I rebooted this blog in early 2020, the plan was to publish 1 new post every 2 weeks. No one was more surprised than myself when I actually stuck to that! Unfortunately, a few weeks ago I injured my Ulnar nerve. I spend _a lot_ of time on computers, and I think it's caught up with me. My physiotherapist…]]></description>
+            <link>https://www.joshwcomeau.com/blog/a-brief-hiatus/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/blog/a-brief-hiatus/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Thu, 25 Jun 2020 14:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;When I rebooted this blog in early 2020, the plan was to publish 1 new post every 2 weeks. No one was more surprised than myself when I actually stuck to that! Unfortunately, a few weeks ago I injured my Ulnar nerve. I spend _a lot_ of time on computers, and I think it&apos;s caught up with me. My physiotherapist…&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/blog/a-brief-hiatus/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Using Netlify Functions with Gatsby]]></title>
+            <description><![CDATA[Tools like Next and Gatsby are great for front-ends, but what about for apps that require a backend? Serverless functions have popped up to fill that gap, and they're *amazing*. In this tutorial, we'll see how to use Netlify Functions with Gatsby, to build full-stack web applications using the tools you already know and love!]]></description>
+            <link>https://www.joshwcomeau.com/gatsby/using-netlify-functions-with-gatsby/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/gatsby/using-netlify-functions-with-gatsby/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 10 Jun 2020 12:45:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Tools like Next and Gatsby are great for front-ends, but what about for apps that require a backend? Serverless functions have popped up to fill that gap, and they&apos;re *amazing*. In this tutorial, we&apos;ll see how to use Netlify Functions with Gatsby, to build full-stack web applications using the tools you already know and love!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/gatsby/using-netlify-functions-with-gatsby/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Local Testing on an iPhone]]></title>
+            <description><![CDATA[Learn how to set up an ideal workflow for debugging your development server on your iPhone. This may not be the most exciting topic I've written about, but it's probably one of the most useful!]]></description>
+            <link>https://www.joshwcomeau.com/blog/local-testing-on-an-iphone/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/blog/local-testing-on-an-iphone/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 26 May 2020 13:15:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Learn how to set up an ideal workflow for debugging your development server on your iPhone. This may not be the most exciting topic I&apos;ve written about, but it&apos;s probably one of the most useful!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/blog/local-testing-on-an-iphone/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Animated Sparkles in React]]></title>
+            <description><![CDATA[In this dazzling tutorial, we'll see how to build an animated <Sparkles> component. Wrap it around text or images and watch them twinkle! This neat trick is a perfect way to emphasize positive or exciting things.]]></description>
+            <link>https://www.joshwcomeau.com/react/animated-sparkles-in-react/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/animated-sparkles-in-react/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 19 May 2020 11:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;In this dazzling tutorial, we&apos;ll see how to build an animated &lt;Sparkles&gt; component. Wrap it around text or images and watch them twinkle! This neat trick is a perfect way to emphasize positive or exciting things.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/animated-sparkles-in-react/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Lessons Learned Speaking at Conferences]]></title>
+            <description><![CDATA[Speaking at conferences is equal parts exciting and terrifying. This article is a behind-the-scenes look at what the experience is like, and shares tips for getting started as a conference speaker.]]></description>
+            <link>https://www.joshwcomeau.com/career/lessons-learned-speaking-at-conferences/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/career/lessons-learned-speaking-at-conferences/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 06 May 2020 16:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Speaking at conferences is equal parts exciting and terrifying. This article is a behind-the-scenes look at what the experience is like, and shares tips for getting started as a conference speaker.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/career/lessons-learned-speaking-at-conferences/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Accessible Animations in React]]></title>
+            <description><![CDATA[I really love animation, but not everybody does. In fact, it can make some people literally sick! In this tutorial, we'll see how to ensure that we respect user preferences, and create animations that can be disabled.]]></description>
+            <link>https://www.joshwcomeau.com/react/prefers-reduced-motion/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/prefers-reduced-motion/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 05 May 2020 00:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;I really love animation, but not everybody does. In fact, it can make some people literally sick! In this tutorial, we&apos;ll see how to ensure that we respect user preferences, and create animations that can be disabled.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/prefers-reduced-motion/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Why My Blog is Closed-Source]]></title>
+            <description><![CDATA[In our community, it's so common for developer projects to be open-source. I'm breaking with this trend for my blog, but I have good reasons! In this article, I'll share my reasoning, as well as a workaround in case you _really_ want to see the source. If you're considering whether a project should be open-source or not, I hope you'll find it valuable.]]></description>
+            <link>https://www.joshwcomeau.com/blog/why-my-blog-is-closed-source/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/blog/why-my-blog-is-closed-source/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 14 Apr 2021 13:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;In our community, it&apos;s so common for developer projects to be open-source. I&apos;m breaking with this trend for my blog, but I have good reasons! In this article, I&apos;ll share my reasoning, as well as a workaround in case you _really_ want to see the source. If you&apos;re considering whether a project should be open-source or not, I hope you&apos;ll find it valuable.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/blog/why-my-blog-is-closed-source/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Incredimental Builds!]]></title>
+            <description><![CDATA[Gatsby just launched an exciting new feature called "incremental builds". This article looks at what it is, how to use it, and what it means for the future of the static web.]]></description>
+            <link>https://www.joshwcomeau.com/gatsby/incredimental-builds/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/gatsby/incredimental-builds/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 29 Apr 2020 11:45:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Gatsby just launched an exciting new feature called &quot;incremental builds&quot;. This article looks at what it is, how to use it, and what it means for the future of the static web.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/gatsby/incredimental-builds/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Quest for the Perfect Dark Mode]]></title>
+            <description><![CDATA[Dark Mode has become common enough that it's a user expectation. And yet, creating the perfect dark mode with a statically-built site/app is deceptively tricky. In this in-depth tutorial, we'll see how to build the perfect, flicker-free, customizable theming solution for React and Gatsby apps.]]></description>
+            <link>https://www.joshwcomeau.com/react/dark-mode/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/dark-mode/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2020 00:45:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Dark Mode has become common enough that it&apos;s a user expectation. And yet, creating the perfect dark mode with a statically-built site/app is deceptively tricky. In this in-depth tutorial, we&apos;ll see how to build the perfect, flicker-free, customizable theming solution for React and Gatsby apps.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/dark-mode/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CSS Variables for React Devs]]></title>
+            <description><![CDATA[CSS Variables are *really* cool, and they're incredibly powerful when it comes to React! This tutorial shows how we can use them with React to create dynamic themes. We'll see how to get the most out of CSS-in-JS tools like styled-components, and how our mental frame around media queries has been wrong all along.]]></description>
+            <link>https://www.joshwcomeau.com/css/css-variables-for-react-devs/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/css-variables-for-react-devs/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 13 Apr 2020 13:15:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;CSS Variables are *really* cool, and they&apos;re incredibly powerful when it comes to React! This tutorial shows how we can use them with React to create dynamic themes. We&apos;ll see how to get the most out of CSS-in-JS tools like styled-components, and how our mental frame around media queries has been wrong all along.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/css-variables-for-react-devs/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[A Static Future]]></title>
+            <description><![CDATA[Tools like Gatsby are great for simple sites, but what about dynamic webapps with rapidly-changing data? In this article, we'll see how the technology is advancing, and all kinds of doors are opening up. "Static" sites are becoming a lot more dynamic!]]></description>
+            <link>https://www.joshwcomeau.com/gatsby/a-static-future/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/gatsby/a-static-future/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 08 Apr 2020 10:45:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Tools like Gatsby are great for simple sites, but what about dynamic webapps with rapidly-changing data? In this article, we&apos;ll see how the technology is advancing, and all kinds of doors are opening up. &quot;Static&quot; sites are becoming a lot more dynamic!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/gatsby/a-static-future/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Styling Ordered Lists with CSS Counters]]></title>
+            <description><![CDATA[Styling an ordered list can be surprisingly tricky; there's no way to get at that bullet! In this tutorial, we'll see a handy trick using CSS counters that lets us style ordered lists without breaking proper semantics.]]></description>
+            <link>https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 07 Apr 2020 14:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Styling an ordered list can be surprisingly tricky; there&apos;s no way to get at that bullet! In this tutorial, we&apos;ll see a handy trick using CSS counters that lets us style ordered lists without breaking proper semantics.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Announcing “use-sound”, a React Hook for Sound Effects]]></title>
+            <description><![CDATA[By and large, using the web is a visual experience. This is in terrible contrast to mobile apps, which interact with three of our human senses (sight, sound, and touch, through haptic feedback). I just released a library to make it easy to add sound to your React app, and I make the case that you should consider using it!]]></description>
+            <link>https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Sun, 21 Feb 2021 13:10:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;By and large, using the web is a visual experience. This is in terrible contrast to mobile apps, which interact with three of our human senses (sight, sound, and touch, through haptic feedback). I just released a library to make it easy to add sound to your React app, and I make the case that you should consider using it!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Embracing modern image formats]]></title>
+            <description><![CDATA[While the weight of our JS bundles is super important, it's not the only factor when it comes to page load time! Images are often several times bigger than our bundles, and they can have a horrible impact on the experience. In this article, we'll see how to use next-gen image formats like Webp in a friendly, backwards-compatible way.]]></description>
+            <link>https://www.joshwcomeau.com/performance/embracing-modern-image-formats/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/performance/embracing-modern-image-formats/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 24 Feb 2021 12:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;While the weight of our JS bundles is super important, it&apos;s not the only factor when it comes to page load time! Images are often several times bigger than our bundles, and they can have a horrible impact on the experience. In this article, we&apos;ll see how to use next-gen image formats like Webp in a friendly, backwards-compatible way.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/performance/embracing-modern-image-formats/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Deploying Netlify Functions with Gatsby Cloud]]></title>
+            <description><![CDATA[Every now and then, Gatsby developers find themselves needing a sprinkle of back-end code. We don't necessarily need a whole server, and we certainly don't want to have to deal with things like load balancing and scaling. We just need some code to run not-in-the-browser…]]></description>
+            <link>https://www.joshwcomeau.com/gatsby/netlify-functions-and-gatsby-cloud/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/gatsby/netlify-functions-and-gatsby-cloud/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 28 Apr 2020 19:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;Every now and then, Gatsby developers find themselves needing a sprinkle of back-end code. We don&apos;t necessarily need a whole server, and we certainly don&apos;t want to have to deal with things like load balancing and scaling. We just need some code to run not-in-the-browser…&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/gatsby/netlify-functions-and-gatsby-cloud/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Becoming a Software Developer Without a CS Degree]]></title>
+            <description><![CDATA[A look at how hundreds of developers got their start in the industry despite not having a Computer Science or Software Engineering degree. We'll sort responses into 6 categories, and detail strategies that you can use to ensure you capture the attention of potential employers!]]></description>
+            <link>https://www.joshwcomeau.com/career/no-cs-degree-required/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/career/no-cs-degree-required/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2020 14:20:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;A look at how hundreds of developers got their start in the industry despite not having a Computer Science or Software Engineering degree. We&apos;ll sort responses into 6 categories, and detail strategies that you can use to ensure you capture the attention of potential employers!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/career/no-cs-degree-required/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Generate an SEO-Friendly Sitemap for your Gatsby Site]]></title>
+            <description><![CDATA[If you maintain a blog, documentation, or any other sort of writing-based Gatsby site, you know how much work goes into content creation. Help users find your work by ensuring that it's properly indexed by Google!]]></description>
+            <link>https://www.joshwcomeau.com/gatsby/seo-friendly-sitemap/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/gatsby/seo-friendly-sitemap/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 09 Mar 2020 12:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;If you maintain a blog, documentation, or any other sort of writing-based Gatsby site, you know how much work goes into content creation. Help users find your work by ensuring that it&apos;s properly indexed by Google!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/gatsby/seo-friendly-sitemap/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Perils of Rehydration]]></title>
+            <description><![CDATA[A surprisingly-common misconception can lead to big rendering issues that are difficult to debug. This deep-dive tutorial examines how React and Gatsby can be used to pre-render content, and how we can work around the constraints to build dynamic, personalized web apps.]]></description>
+            <link>https://www.joshwcomeau.com/react/the-perils-of-rehydration/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/the-perils-of-rehydration/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 02 Mar 2020 14:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;A surprisingly-common misconception can lead to big rendering issues that are difficult to debug. This deep-dive tutorial examines how React and Gatsby can be used to pre-render content, and how we can work around the constraints to build dynamic, personalized web apps.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/the-perils-of-rehydration/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Persisting React State in localStorage]]></title>
+            <description><![CDATA[A common thing in React development is that we want to store a bit of React state in localStorage, and re-initialize from that value on the next page-load. This quick tutorial shows you how we can build a custom hook that does exactly this!]]></description>
+            <link>https://www.joshwcomeau.com/react/persisting-react-state-in-localstorage/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/persisting-react-state-in-localstorage/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 24 Feb 2020 17:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;A common thing in React development is that we want to store a bit of React state in localStorage, and re-initialize from that value on the next page-load. This quick tutorial shows you how we can build a custom hook that does exactly this!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/persisting-react-state-in-localstorage/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Effective Collaboration with Product and Design]]></title>
+            <description><![CDATA[How we work with design can have a tremendous impact on our overall output, and yet we don't always treat it as very important. A look at how collaborating with design can supercharge our own productivity.]]></description>
+            <link>https://www.joshwcomeau.com/career/effective-collaboration/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/career/effective-collaboration/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Tue, 21 Jan 2020 14:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;How we work with design can have a tremendous impact on our overall output, and yet we don&apos;t always treat it as very important. A look at how collaborating with design can supercharge our own productivity.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/career/effective-collaboration/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Magical Rainbow Gradients]]></title>
+            <description><![CDATA[If you've ever tried to animate a gradient, you've been met with a harsh reality—it isn't possible. At least, it wasn't! In this tutorial, we'll leverage bleeding-edge browser features to animate ANY CSS property, including background gradients, using CSS Houdini, CSS variables, and React.]]></description>
+            <link>https://www.joshwcomeau.com/react/rainbow-button/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/rainbow-button/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 13 Jan 2020 13:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;If you&apos;ve ever tried to animate a gradient, you&apos;ve been met with a harsh reality—it isn&apos;t possible. At least, it wasn&apos;t! In this tutorial, we&apos;ll leverage bleeding-edge browser features to animate ANY CSS property, including background gradients, using CSS Houdini, CSS variables, and React.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/rainbow-button/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Finding your first remote job]]></title>
+            <description><![CDATA[As remote work becomes increasingly popular, I am frequently asked how to get started. This article shares everything I know about landing that first remote gig.]]></description>
+            <link>https://www.joshwcomeau.com/career/remote-work-pt2/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/career/remote-work-pt2/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Thu, 19 Dec 2019 10:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;As remote work becomes increasingly popular, I am frequently asked how to get started. This article shares everything I know about landing that first remote gig.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/career/remote-work-pt2/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[My experience as a remote worker]]></title>
+            <description><![CDATA[I've spent half of my career working remotely. This post chronicles those experiences, giving a real-world window into what it's like to work fully-remote as a software engineer.]]></description>
+            <link>https://www.joshwcomeau.com/career/remote-work/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/career/remote-work/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 02 Dec 2019 13:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;I&apos;ve spent half of my career working remotely. This post chronicles those experiences, giving a real-world window into what it&apos;s like to work fully-remote as a software engineer.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/career/remote-work/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Folding the DOM]]></title>
+            <description><![CDATA[In this post, we'll explore a technique we can use to "fold" a DOM node, like folding a letter in real-life. On that journey, we'll learn a lot about 3D transforms and CSS animation techniques!]]></description>
+            <link>https://www.joshwcomeau.com/react/folding-the-dom/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/folding-the-dom/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Sun, 19 May 2019 19:00:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;In this post, we&apos;ll explore a technique we can use to &quot;fold&quot; a DOM node, like folding a letter in real-life. On that journey, we&apos;ll learn a lot about 3D transforms and CSS animation techniques!&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/folding-the-dom/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Dynamic Bézier Curves]]></title>
+            <description><![CDATA[A deep dive into Bézier curves in React. We'll look at how to build dynamic effects such as scroll-to-flatten using SVG path instructions, and how to architect our components for maximum readability and reusability.]]></description>
+            <link>https://www.joshwcomeau.com/animation/dynamic-bezier-curves/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/animation/dynamic-bezier-curves/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Wed, 23 May 2018 13:30:00 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;A deep dive into Bézier curves in React. We&apos;ll look at how to build dynamic effects such as scroll-to-flatten using SVG path instructions, and how to architect our components for maximum readability and reusability.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/animation/dynamic-bezier-curves/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Animating the Unanimatable]]></title>
+            <description><![CDATA[An in-depth look at the surprisingly complicated problem of animating the transition when two items in a list swap positions.]]></description>
+            <link>https://www.joshwcomeau.com/react/animating-the-unanimatable/</link>
+            <guid isPermaLink="false">https://www.joshwcomeau.com/react/animating-the-unanimatable/</guid>
+            <dc:creator><![CDATA[Josh W. Comeau]]></dc:creator>
+            <pubDate>Mon, 15 Feb 2016 18:03:43 GMT</pubDate>
+            <content:encoded>
+&lt;p&gt;An in-depth look at the surprisingly complicated problem of animating the transition when two items in a list swap positions.&lt;/p&gt;
+&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;
+  &lt;strong&gt;&lt;a href=&quot;https://www.joshwcomeau.com/react/animating-the-unanimatable/&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content:encoded>
+        </item>
+    </channel>
+</rss>
