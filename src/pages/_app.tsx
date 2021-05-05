@@ -1,4 +1,5 @@
 import "reset.css/reset.css";
+import "nprogress/nprogress.css";
 
 import "../../styles/globals.css";
 
