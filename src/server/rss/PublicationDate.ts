@@ -1,7 +1,9 @@
 import { format, isAfter, isValid, parse, parseISO, subDays } from "date-fns";
 
 export class PublicationDate {
-  constructor(dateInRandomFormat) {
+  private readonly value: Date | null;
+
+  constructor(dateInRandomFormat: string) {
     const parsingAttempts = [
       parseISO(dateInRandomFormat),
       parse(dateInRandomFormat, "E, dd MMM yyyy HH:mm:ss 'GMT'", new Date()),
@@ -16,10 +18,10 @@ export class PublicationDate {
   }
 
   isRecent() {
-    return isAfter(this.value, subDays(new Date(), 14));
+    return isAfter(this.value!, subDays(new Date(), 14));
   }
 
   display() {
-    return format(this.value, "dd/MM/yyyy HH:mm");
+    return format(this.value!, "dd/MM/yyyy HH:mm");
   }
 }

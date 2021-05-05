@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import styles from "../../styles/RefreshButton.module.css";
+import styles from "../../../styles/RefreshButton.module.css";
 
 export const RefreshButton = () => {
   const router = useRouter();
