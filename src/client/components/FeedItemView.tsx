@@ -9,6 +9,6 @@ export const FeedItemView = ({ item }: FeedItemViewProps) => (
   <li className={styles.feedItem}>
     <p>{item.title}</p>
     <a href={item.link} target="_blank" />
-    <time>{item.date}</time>
+    <time>{item.publicationDate}</time>
   </li>
 );

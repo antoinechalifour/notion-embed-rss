@@ -27,5 +27,8 @@
     "msw": "^0.28.2",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
+  },
+  "jest": {
+    "testRegex": "/__tests__/(.*).test.ts$"
   }
 }

@@ -1,36 +1,23 @@
-import Parser from "rss-parser";
+import { Result } from "../../shared/Result";
 
-import { error, Result, success } from "../../client/Result";
-import { FeedSuccess } from "../../client/FeedSuccess";
-import { FeedError } from "../../client/FeedError";
-
-import { Feed } from "./Feed";
+import { Source } from "./Source";
+import { ErrorResult } from "./ErrorResult";
+import { SuccessResult } from "./SuccessResult";
 
 export class Feeds {
-  private sources: string[];
-  private parser: Parser;
+  private sources: Source[];
 
   constructor(concatenatedSources: string) {
     if (!concatenatedSources) throw new Error("No source specified");
 
-    this.sources = concatenatedSources.split(",");
-    this.parser = new Parser();
+    this.sources = concatenatedSources.split(",").map((url) => new Source(url));
   }
 
-  contentForDate(forDate: Date): Promise<Result<FeedSuccess, FeedError>[]> {
-    return Promise.all(this.sources.map((url) => this.parseUrl(url, forDate)));
-  }
-
-  private async parseUrl(url: string, forDate: Date) {
-    try {
-      const response: any = await this.parser.parseURL(url);
-
-      return success<FeedSuccess>({
-        forUrl: url,
-        feed: Feed.ofParsingResult(response, forDate).toJSON(),
-      });
-    } catch (e) {
-      return error<FeedError>({ forUrl: url });
-    }
+  async contentSince(
+    since: Date
+  ): Promise<Result<SuccessResult, ErrorResult>[]> {
+    return Promise.all(
+      this.sources.map((source) => source.contentSince(since))
+    );
   }
 }

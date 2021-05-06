@@ -1,5 +1,3 @@
-import { Feed as FeedViewModel } from "../../client/Feed";
-
 import { FeedItem } from "./FeedItem";
 
 interface OfParsingResultOptions {
@@ -9,33 +7,35 @@ interface OfParsingResultOptions {
 }
 
 export class Feed {
+  itemsSinceDate: FeedItem[] = [];
+
   constructor(
-    private readonly title: string,
-    private readonly link: string,
-    private readonly items: FeedItem[],
-    private readonly forDate: Date
+    readonly title: string,
+    readonly link: string,
+    private readonly items: FeedItem[]
   ) {}
 
-  static ofParsingResult(
-    { title, link, items }: OfParsingResultOptions,
-    now: Date
-  ) {
+  static ofParsingResult({ title, link, items }: OfParsingResultOptions) {
     return new Feed(
       title,
       link,
-      items.map((item) => FeedItem.ofParsingResult(item)),
-      now
+      items.map((item) => FeedItem.ofParsingResult(item))
     );
   }
 
-  get itemsShownInFeed() {
-    return this.items.filter((item) => item.showInFeed(this.forDate));
+  withContentSince(since: Date) {
+    this.itemsSinceDate = this.items.filter((item) =>
+      item.isPublishedAfter(since)
+    );
+
+    return this;
   }
 
-  toJSON(): FeedViewModel {
+  read() {
     return {
       title: this.title,
-      items: this.itemsShownInFeed.map((item) => item.toJSON()),
+      link: this.link,
+      items: this.itemsSinceDate.map((item) => item.read()),
     };
   }
 }

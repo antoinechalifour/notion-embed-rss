@@ -1,4 +1,4 @@
-import { format, isAfter, isValid, parse, parseISO, subDays } from "date-fns";
+import { format, isAfter, isValid, parse, parseISO } from "date-fns";
 
 export class PublicationDate {
   private readonly value: Date | null;
@@ -13,12 +13,12 @@ export class PublicationDate {
     this.value = parsingAttempts.find((attempt) => isValid(attempt)) || null;
   }
 
-  isKnown() {
-    return this.value !== null;
+  isAfter(date: Date) {
+    return this.isKnown() && isAfter(this.value!, date);
   }
 
-  isRecent(now: Date) {
-    return isAfter(this.value!, subDays(now, 14));
+  private isKnown() {
+    return this.value !== null;
   }
 
   display() {

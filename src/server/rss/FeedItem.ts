@@ -1,4 +1,3 @@
-import { FeedItem as FeedItemViewModel } from "../../client/FeedItem";
 import { PublicationDate } from "./PublicationDate";
 
 interface OfParsingResultOptions {
@@ -11,26 +10,22 @@ export class FeedItem {
   constructor(
     private readonly title: string,
     private readonly link: string,
-    private readonly date: PublicationDate
+    private readonly publicationDate: PublicationDate
   ) {}
 
   static ofParsingResult({ title, link, pubDate }: OfParsingResultOptions) {
     return new FeedItem(title, link, new PublicationDate(pubDate));
   }
 
-  showInFeed(now: Date) {
-    return this.date.isKnown() && this.date.isRecent(now);
+  isPublishedAfter(date: Date) {
+    return this.publicationDate.isAfter(date);
   }
 
-  get pubDate() {
-    return this.date.display();
-  }
-
-  toJSON(): FeedItemViewModel {
+  read() {
     return {
       title: this.title,
       link: this.link,
-      date: this.pubDate,
+      publicationDate: this.publicationDate.display(),
     };
   }
 }
