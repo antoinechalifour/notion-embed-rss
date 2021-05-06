@@ -1,14 +1,22 @@
-.refreshButton {
-    display: block;
-    width: 100%;
+.container {
     text-align: center;
+}
+
+.refreshButton {
+    transition: all .2s ease;
     cursor: pointer;
     font-family: inherit;
     font-size: 16px;
-    background: none;
     margin-bottom: 20px;
-    padding: 0;
-    border: none;
-    color: var(--color-accent);
-    text-decoration: underline dotted var(--color-accent);
+    border: 5px solid transparent;
+    background: var(--color-accent);
+    color: var(--color-text-reverse);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: scale(1);
+}
+
+.refreshButton:hover {
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, .5);
 }

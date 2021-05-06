@@ -18,6 +18,7 @@ body {
 .light {
   --color-background: #fff;
   --color-text: #3F3C36;
+  --color-text-reverse: #EEEEEE;
   --color-border: #E3E3E2;
   --color-error: crimson;
   --color-accent: darkslateblue;
@@ -26,6 +27,7 @@ body {
 .dark {
   --color-background: #353C3F;
   --color-text: #EEEEEE;
+  --color-text-reverse: #3F3C36;
   --color-border: #575C5D;
   --color-error: salmon;
   --color-accent: aquamarine;
