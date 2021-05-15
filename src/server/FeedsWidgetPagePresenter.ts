@@ -1,8 +1,7 @@
 import { Font, Theme } from "../shared/Theme";
 import { Result } from "../shared/Result";
+import { ErrorResult, SuccessResult } from "../shared/FeedResult";
 
-import { ErrorResult } from "./rss/ErrorResult";
-import { SuccessResult } from "./rss/SuccessResult";
 import { FeedsWidgetPresenter } from "./FeedsWidgetPresenter";
 
 export class FeedsWidgetPagePresenter implements FeedsWidgetPresenter {

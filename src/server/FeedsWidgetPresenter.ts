@@ -1,7 +1,6 @@
 import { Font, Theme } from "../shared/Theme";
 import { Result } from "../shared/Result";
-import { ErrorResult } from "./rss/ErrorResult";
-import { SuccessResult } from "./rss/SuccessResult";
+import { ErrorResult, SuccessResult } from "../shared/FeedResult";
 
 export interface FeedsWidgetPresenter {
   present(data: {
