@@ -1,11 +1,11 @@
 import styles from "../../../styles/Feed.module.css";
-import type { Feed } from "../Feed";
+import type { FeedReadModel } from "../../shared/FeedReadModel";
 
 import { FeedItemsView } from "./FeedItemsView";
 import { EmptyFeedView } from "./EmptyFeedView";
 
 interface FeedViewProps {
-  feed: Feed;
+  feed: FeedReadModel;
 }
 
 export const FeedView = ({ feed }: FeedViewProps) => (

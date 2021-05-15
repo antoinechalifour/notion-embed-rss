@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 export const joshuaComeauFeed = fs.readFileSync(
-  path.join(__dirname, "fixtures/joshua-comeau-feed.xml"),
+  path.join(__dirname, "joshua-comeau-feed.xml"),
   "utf-8"
 );
 

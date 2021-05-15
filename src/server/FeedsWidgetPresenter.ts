@@ -1,4 +1,4 @@
-import { Font, Theme } from "../client/Theme";
+import { Font, Theme } from "../shared/Theme";
 import { Result } from "../shared/Result";
 import { ErrorResult } from "./rss/ErrorResult";
 import { SuccessResult } from "./rss/SuccessResult";

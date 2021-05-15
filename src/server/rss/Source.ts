@@ -1,9 +1,8 @@
 import Parser from "rss-parser";
 import { error, success } from "../../shared/Result";
+import { ErrorResult, SuccessResult } from "../../shared/FeedResult";
 
-import { ErrorResult } from "./ErrorResult";
 import { Feed } from "./Feed";
-import { SuccessResult } from "./SuccessResult";
 
 export class Source {
   constructor(private readonly url: string) {}

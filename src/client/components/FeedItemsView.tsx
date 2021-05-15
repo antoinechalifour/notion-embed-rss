@@ -1,10 +1,10 @@
 import styles from "../../../styles/FeedItems.module.css";
-import { Feed } from "../Feed";
+import { FeedReadModel } from "../../shared/FeedReadModel";
 
 import { FeedItemView } from "./FeedItemView";
 
 interface FeedItemsViewProps {
-  feed: Feed;
+  feed: FeedReadModel;
 }
 
 export const FeedItemsView = ({ feed }: FeedItemsViewProps) => (

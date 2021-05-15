@@ -1,11 +1,11 @@
 import styles from "../../../styles/FeedsWidget.module.css";
 import { Result } from "../../shared/Result";
-import { Font, Theme } from "../Theme";
+import { Font, Theme } from "../../shared/Theme";
 
 import { RefreshButton } from "./RefreshButton";
 import { FeedErrorView } from "./FeedErrorView";
 import { FeedView } from "./FeedView";
-import { ErrorResult, SuccessResult } from "../Result";
+import { ErrorResult, SuccessResult } from "../../shared/FeedResult";
 
 interface FeedsWidgetViewProps {
   content: Result<SuccessResult, ErrorResult>[];

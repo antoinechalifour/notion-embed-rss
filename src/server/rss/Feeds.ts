@@ -1,8 +1,7 @@
 import { Result } from "../../shared/Result";
+import { ErrorResult, SuccessResult } from "../../shared/FeedResult";
 
 import { Source } from "./Source";
-import { ErrorResult } from "./ErrorResult";
-import { SuccessResult } from "./SuccessResult";
 
 export class Feeds {
   private sources: Source[];

@@ -1,8 +1,8 @@
 import styles from "../../../styles/FeedItem.module.css";
-import { FeedItem } from "../FeedItem";
+import { FeedItemReadModel } from "../../shared/FeedItemReadModel";
 
 interface FeedItemViewProps {
-  item: FeedItem;
+  item: FeedItemReadModel;
 }
 
 export const FeedItemView = ({ item }: FeedItemViewProps) => (
