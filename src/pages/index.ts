@@ -7,6 +7,9 @@ import FeedsWidgetView from "../client/components/FeedsWidgetView";
 
 export default FeedsWidgetView;
 
+const toNumberIfDefined = (num: string | undefined) =>
+  num ? Number(num) : undefined;
+
 export const getServerSideProps: GetServerSideProps = async ({
   query,
   res,
@@ -18,6 +21,7 @@ export const getServerSideProps: GetServerSideProps = async ({
     sources: query.sources as string,
     font: query.font as string | undefined,
     theme: query.theme as string | undefined,
+    sinceDays: toNumberIfDefined(query.sinceDays as string | undefined),
   });
 
   return presenter.toPage();

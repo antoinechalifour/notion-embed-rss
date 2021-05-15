@@ -13,6 +13,7 @@ interface BuildFeedsOptions {
   sources: string;
   font?: string;
   theme?: string;
+  sinceDays?: number;
 }
 
 export class BuildFeeds {
@@ -26,11 +27,12 @@ export class BuildFeeds {
     sources,
     font = "default",
     theme = "light",
+    sinceDays = 14,
   }: BuildFeedsOptions) {
     if (!sources) return this.redirect(302, INSTRUCTIONS_PAGE);
 
     const feeds = new Feeds(sources);
-    const contentSinceDate = subDays(this.clock.now(), 14);
+    const contentSinceDate = subDays(this.clock.now(), sinceDays);
 
     this.presenter.present({
       font: safeFont(font),

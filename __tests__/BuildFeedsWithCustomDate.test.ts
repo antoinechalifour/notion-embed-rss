@@ -5,7 +5,7 @@ import { BuildFeeds } from "../src/server/rss/BuildFeeds";
 import { FeedsWidgetPagePresenter } from "../src/server/FeedsWidgetPagePresenter";
 import { fixedClock } from "./utils/clock";
 import {
-  joshuaComeauContentSince14DaysFor30thApril,
+  joshuaComeauContentSince30DaysFor30thApril,
   joshuaComeauFeed,
 } from "./fixtures/feed";
 
@@ -23,7 +23,7 @@ beforeAll(() =>
 
 afterAll(() => server.close());
 
-it("Generates the feeds using articles from the last 14 days", async () => {
+it("Generates the feeds using articles from the last 30 days", async () => {
   // Arrange
   const sources = "https://www.joshwcomeau.com/rss.xml";
   const presenter = new FeedsWidgetPagePresenter();
@@ -34,6 +34,7 @@ it("Generates the feeds using articles from the last 14 days", async () => {
     sources,
     font: "mono",
     theme: "light",
+    sinceDays: 30,
   });
 
   // Assert
@@ -43,7 +44,7 @@ it("Generates the feeds using articles from the last 14 days", async () => {
         {
           type: "success",
           data: {
-            feed: joshuaComeauContentSince14DaysFor30thApril(),
+            feed: joshuaComeauContentSince30DaysFor30thApril(),
             forUrl: "https://www.joshwcomeau.com/rss.xml",
           },
         },
