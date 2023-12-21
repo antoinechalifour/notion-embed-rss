@@ -15,22 +15,55 @@ body {
   background: #fff;
 }
 
-.light {
-  --color-background: #fff;
-  --color-text: #3F3C36;
-  --color-text-reverse: #EEEEEE;
-  --color-border: #E3E3E2;
-  --color-error: crimson;
-  --color-accent: darkslateblue;
+@media (prefers-color-scheme: dark) {
+  .system, .dark {
+    --color-background: #191919;
+    --color-text: #EEEEEE;
+    --color-text-reverse: #19191A;
+    --color-border: #575C5D;
+    --color-error: salmon;
+    --color-accent: rgb(255, 255, 255);
+    --scrollbar-track: #202020;
+    --scrollbar-thumb: #474C50;
+    --scrollbar-thumb-hover: #545555;
+  }
+
+  .light {
+    --color-background: #fff;
+    --color-text: #3F3C36;
+    --color-text-reverse: #EEEEEE;
+    --color-border: #E3E3E2;
+    --color-error: crimson;
+    --color-accent: #191919;
+    --scrollbar-track: #EDECE9;
+    --scrollbar-thumb: #D3D1CB;
+    --scrollbar-thumb-hover: #AEACA6;
+  }
 }
 
-.dark {
-  --color-background: #353C3F;
-  --color-text: #EEEEEE;
-  --color-text-reverse: #3F3C36;
-  --color-border: #575C5D;
-  --color-error: salmon;
-  --color-accent: aquamarine;
+@media (prefers-color-scheme: light) {
+  .system, .light {
+    --color-background: #fff;
+    --color-text: #3F3C36;
+    --color-text-reverse: #EEEEEE;
+    --color-border: #E3E3E2;
+    --color-error: crimson;
+    --color-accent: #191919;
+    --scrollbar-track: #EDECE9;
+    --scrollbar-thumb: #D3D1CB;
+    --scrollbar-thumb-hover: #AEACA6;
+  }
+
+  .dark {
+    --color-background: #191919;
+    --color-text: #EEEEEE;
+    --color-text-reverse: #19191A;
+    --color-border: #575C5D;
+    --color-error: salmon;
+    --color-accent: rgb(255, 255, 255);
+    --scrollbar-thumb: #474C50;
+    --scrollbar-thumb-hover: #545555;
+  }
 }
 
 .mono {
